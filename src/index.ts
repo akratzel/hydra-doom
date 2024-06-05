@@ -23,6 +23,7 @@ Module.onRuntimeInitialized = () => {
 window.hydraSend = hydraSend;
 // @ts-ignore
 window.hydraRecv = hydraRecv;
+startButton!.disabled = false;
 
 startButton?.addEventListener("click", () => {
   var args = [
